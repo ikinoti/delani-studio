@@ -4,6 +4,7 @@ html {
 }
 body {
   font-family: "Patrick Hand", cursive;
+  /* box-sizing: border-box !important; */
 }
 
 #showcase {
@@ -28,5 +29,14 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* color: white; */
+  color: white;
+}
+
+input[type="text"],
+input[type="email"],
+#message {
+  background: transparent;
+}
+.form-control::-webkit-input-placeholder {
+  color: white;
 }
