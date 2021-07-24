@@ -9,19 +9,19 @@ body {
 #showcase {
   background-image: url("../assets/backgrounds/h_img.jpg");
   background-position: center center;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   color: white;
-  text-align: center;
-  padding: 10% !important;
+  padding: 14% !important;
 }
 
 #service {
   background-image: url("../assets/backgrounds/s_image.jpg");
-  background-position: center center;
-  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   color: white;
+  padding: 5% !important;
 }
 #contact {
   background-image: url("../assets/backgrounds/c_image.jpg");
