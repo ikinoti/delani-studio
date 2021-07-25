@@ -4,32 +4,43 @@ html {
 }
 body {
   font-family: "Patrick Hand", cursive;
-  /* box-sizing: border-box !important; */
+  overflow-x: hidden;
 }
 
 #showcase {
   background-image: url("../assets/backgrounds/h_img.jpg");
-  background-position: center center;
-  background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
   color: white;
-  padding: 14% !important;
+  height: 80vh;
+  padding-top: 300px;
+}
+
+#mouse {
+  padding-top: 120px;
 }
 
 #service {
   background-image: url("../assets/backgrounds/s_image.jpg");
-  background-position: center;
-  background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
   color: white;
-  padding: 5% !important;
+  padding: 100px;
+}
+#designInfo,
+#developmentInfo,
+#productionInfo {
+  display: none;
 }
 #contact {
   background-image: url("../assets/backgrounds/c_image.jpg");
-  background-position: center center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
   color: white;
+  height: 50vh;
 }
 
 input[type="text"],
@@ -39,4 +50,24 @@ input[type="email"],
 }
 .form-control::-webkit-input-placeholder {
   color: white;
+}
+
+#overlay1,
+#overlay2,
+#overlay3,
+#overlay4,
+#overlay5,
+#overlay6,
+#overlay7,
+#overlay8 {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 50px;
+  border: 5px solid white;
+  background-color: rgba(10, 10, 10, 0.4);
+  display: none;
 }
