@@ -85,23 +85,16 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  $("form[name='contactForm']").validate({
-    rules: {
-      fName: "required",
-      email: {
-        required: true,
-        email: true,
-      },
-      messageContent: "required",
-    },
-
-    messages: {
-      fName: "Please enter your Full Name",
-      email: "Please enter a valid email address",
-      messageContent: "Please ener your message",
-    },
-    submitHandler: function (form) {
-      form.submit();
-    },
+  $("form#myForm").submit(function (event) {
+    var name = $("input#fName").val();
+    var email = $("input#email").val();
+    var message = $("input#message").val();
+    if (name !== "" && email !== "" && message !== "") {
+      alert(`${name}, your message has been sent successfully.`);
+    } else {
+      alert(
+        `Please enter your name and valid email address and write a message for us.`
+      );
+    }
   });
 });
