@@ -1,6 +1,6 @@
 # DELANI STUDIO
 
-[Check it out]()
+[Check it out](https://ikinoti.github.io/delani-studio/)
 
 ## Author.
 
@@ -11,7 +11,7 @@
 
 A webpage for Delani studio which gives a detailed account about what they are, the services they offer, projects done so far and a contact page that the user can reach them to.
 
-​## Screenshots
+## Screenshots
 <img src="./assets/ss/ss1.png" alt="screenshot">
 <img src="./assets/ss/ss2.png" alt="screenshot">
 <img src="./assets/ss/ss3.png" alt="screenshot">
