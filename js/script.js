@@ -83,3 +83,25 @@ $(document).ready(function () {
       $("#overlay8").hide();
     });
 });
+
+$(document).ready(function () {
+  $("form[name='contactForm']").validate({
+    rules: {
+      fName: "required",
+      email: {
+        required: true,
+        email: true,
+      },
+      messageContent: "required",
+    },
+
+    messages: {
+      fName: "Please enter your Full Name",
+      email: "Please enter a valid email address",
+      messageContent: "Please ener your message",
+    },
+    submitHandler: function (form) {
+      form.submit();
+    },
+  });
+});
